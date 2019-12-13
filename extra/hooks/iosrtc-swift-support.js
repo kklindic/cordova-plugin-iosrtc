@@ -94,7 +94,6 @@ module.exports = function (context) {
 
 	// "build.xcconfig"
 	swiftOptions.push('LD_RUNPATH_SEARCH_PATHS = ' + RUNPATH_SEARCH_PATHS);
-	swiftOptions.push('SWIFT_OBJC_BRIDGING_HEADER = ' + swiftBridgingHead);
 	swiftOptions.push('IPHONEOS_DEPLOYMENT_TARGET = ' + BUILD_VERSION);
 	swiftOptions.push('ENABLE_BITCODE = ' + ENABLE_BITCODE);
 	swiftOptions.push('SWIFT_VERSION = ' + SWIFT_VERSION);
